@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #150b3e;
+  width: 500px;
+  border-radius: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 30px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  margin-right: 20px;
+}
+.profile-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+.your-balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.balance-amount {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+}
+.in-rupees-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 30px;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+}
+.denominations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 100%;
+}
+.denomination-container {
+  width: 100%;
+}
